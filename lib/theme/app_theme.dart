@@ -30,7 +30,7 @@ class AppTheme {
       brightness: Brightness.dark,
       primaryColor: AppColors.accentTeal,
       scaffoldBackgroundColor: AppColors.backgroundDark,
-      fontFamily: 'Cairo',
+      fontFamily: 'NotoKufiArabic',
       appBarTheme: const AppBarTheme(
         backgroundColor: Colors.transparent,
         elevation: 0,
