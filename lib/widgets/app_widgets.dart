@@ -31,6 +31,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           color: Colors.white,
           fontSize: 22,
           fontWeight: FontWeight.bold,
+          fontFamily: 'NotoKufiArabic',
         ),
       ),
       centerTitle: true,
@@ -78,6 +79,7 @@ class MenuButton extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
+                    fontFamily: 'NotoKufiArabic',
                   ),
                 ),
                 if (icon != null) ...[
@@ -122,6 +124,7 @@ class DashboardGridButton extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
+                fontFamily: 'NotoKufiArabic',
               ),
             ),
           ),
@@ -171,6 +174,7 @@ class CustomTextField extends StatelessWidget {
             color: Colors.white,
             fontSize: 14,
             fontWeight: FontWeight.w500,
+            fontFamily: 'NotoKufiArabic',
           ),
         ),
         const SizedBox(height: 8),
@@ -182,7 +186,7 @@ class CustomTextField extends StatelessWidget {
           onTap: onTap,
           textAlign: textAlign,
           textDirection: textDirection,
-          style: const TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white, fontFamily: 'NotoKufiArabic'),
           decoration: InputDecoration(
             hintText: hint,
             hintStyle: const TextStyle(color: AppColors.textGrey),
@@ -248,6 +252,7 @@ class ActionButton extends StatelessWidget {
               color: textColor ?? Colors.white,
               fontSize: 16,
               fontWeight: FontWeight.bold,
+              fontFamily: 'NotoKufiArabic',
             ),
           ),
         ),
@@ -271,6 +276,7 @@ class ActionButton extends StatelessWidget {
             color: textColor ?? Colors.white,
             fontSize: 16,
             fontWeight: FontWeight.bold,
+            fontFamily: 'NotoKufiArabic',
           ),
         ),
       ),
@@ -310,6 +316,7 @@ class InfoCard extends StatelessWidget {
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,
+              fontFamily: 'NotoKufiArabic',
             ),
             textDirection: TextDirection.ltr,
           ),
@@ -321,6 +328,7 @@ class InfoCard extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 14,
                   fontWeight: FontWeight.w600,
+                  fontFamily: 'NotoKufiArabic',
                 ),
               ),
               if (icon != null) ...[
@@ -373,6 +381,7 @@ class StatisticsTable extends StatelessWidget {
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                       fontSize: 14,
+                      fontFamily: 'NotoKufiArabic',
                     ),
                   ),
                 );
@@ -397,6 +406,7 @@ class StatisticsTable extends StatelessWidget {
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 14,
+                        fontFamily: 'NotoKufiArabic',
                       ),
                     ),
                   );
@@ -452,6 +462,7 @@ class UserStatCard extends StatelessWidget {
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
+                  fontFamily: 'NotoKufiArabic',
                 ),
               ),
             ),
@@ -461,6 +472,7 @@ class UserStatCard extends StatelessWidget {
                 color: Colors.white,
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
+                fontFamily: 'NotoKufiArabic',
               ),
             ),
           ],
@@ -520,6 +532,7 @@ class CardItemWidget extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
+                    fontFamily: 'NotoKufiArabic',
                   ),
                 ),
               ),
@@ -536,6 +549,7 @@ class CardItemWidget extends StatelessWidget {
                 style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'NotoKufiArabic',
                 ),
               ),
             ),
@@ -589,7 +603,7 @@ class UserItemWidget extends StatelessWidget {
                     const SizedBox(width: 4),
                     Text(
                       'تحميل: $download',
-                      style: const TextStyle(color: Colors.white, fontSize: 12),
+                      style: const TextStyle(color: Colors.white, fontSize: 12, fontFamily: 'NotoKufiArabic'),
                     ),
                   ],
                 ),
@@ -600,7 +614,7 @@ class UserItemWidget extends StatelessWidget {
                     const SizedBox(width: 4),
                     Text(
                       'رفع: $upload',
-                      style: const TextStyle(color: Colors.white, fontSize: 12),
+                      style: const TextStyle(color: Colors.white, fontSize: 12, fontFamily: 'NotoKufiArabic'),
                     ),
                   ],
                 ),
@@ -614,7 +628,7 @@ class UserItemWidget extends StatelessWidget {
                   const SizedBox(height: 4),
                   Text(
                     duration,
-                    style: const TextStyle(color: Colors.white, fontSize: 14),
+                    style: const TextStyle(color: Colors.white, fontSize: 14, fontFamily: 'NotoKufiArabic'),
                   ),
                 ],
               ),
@@ -629,6 +643,7 @@ class UserItemWidget extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'NotoKufiArabic',
                   ),
                 ),
                 Text(
@@ -636,6 +651,7 @@ class UserItemWidget extends StatelessWidget {
                   style: const TextStyle(
                     color: Colors.white54,
                     fontSize: 12,
+                    fontFamily: 'NotoKufiArabic',
                   ),
                 ),
               ],
@@ -691,6 +707,7 @@ class DnsItemWidget extends StatelessWidget {
               color: Colors.white,
               fontSize: 20,
               fontWeight: FontWeight.bold,
+              fontFamily: 'NotoKufiArabic',
             ),
           ),
         ],
@@ -734,7 +751,7 @@ class PackageDropdown extends StatelessWidget {
                 isExpanded: true,
                 alignment: Alignment.centerRight,
                 dropdownColor: AppColors.cardColor,
-                style: const TextStyle(color: Colors.white, fontSize: 16),
+                style: const TextStyle(color: Colors.white, fontSize: 16, fontFamily: 'NotoKufiArabic'),
                 items: items.map((String value) {
                   return DropdownMenuItem<String>(
                     value: value,
@@ -753,6 +770,7 @@ class PackageDropdown extends StatelessWidget {
               color: Colors.white,
               fontSize: 14,
               fontWeight: FontWeight.w500,
+              fontFamily: 'NotoKufiArabic',
             ),
           ),
         ],

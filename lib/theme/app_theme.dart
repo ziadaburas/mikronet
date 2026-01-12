@@ -27,6 +27,7 @@ class AppColors {
 class AppTheme {
   static ThemeData get darkTheme {
     return ThemeData(
+      
       brightness: Brightness.dark,
       primaryColor: AppColors.accentTeal,
       scaffoldBackgroundColor: AppColors.backgroundDark,
